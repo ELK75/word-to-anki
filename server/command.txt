@@ -1,0 +1,1 @@
+docker run -it -p 3001:3000 -e GOOGLE_APPLICATION_CREDENTIALS=/app/google_credentials.json -v ${PWD}:/app translate
